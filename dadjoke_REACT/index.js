@@ -10,6 +10,9 @@
 
 //async function generateJoke() {
 
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 const jokeResult = async () => { 
     const result = await fetch('https://icanhazdadjoke.com/', {
         headers: {
